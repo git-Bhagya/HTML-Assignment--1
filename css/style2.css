@@ -1,0 +1,138 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+#container{
+    margin-right: 125px;
+    margin-bottom: 30px;
+}
+.slidebar-icon{
+    height: 20px;
+    width: 20px;
+    margin: 15px 0px 0px 15px;
+    float: left;
+}
+.logo-image{
+    width:142px;
+    height: 30px;
+    margin: 15px 0px 0px 15px;
+    float: left;
+}
+.slidebar-icon{
+    display: inline;
+}
+.search-icon{
+    width: 16px;
+    height: 16px;
+    margin: 19px;
+    margin-left: 80px;
+    float: left;
+}
+.notification-icon{
+    width: 21px;
+    height: 21px;
+    float: right;
+    position: relative;
+    top: 15px;
+    right: 50px;
+}
+.profile-image{
+    width: 35px;
+    height: 35px;
+    float: right;
+    position: relative;
+    top: 7px;
+    left: 40px;
+}
+.downword-arrow{
+    width: 40px;
+    height: 20px;
+    float: right;
+    position: relative;
+    left: 227px;
+    top: 14px;
+}
+.i1{
+    width: 15px;
+    height: 15px;
+    margin-left: 45px;
+}
+.i2{
+    width: 15px;
+    height: 15px;
+    margin-left: 45px;
+}
+.i3{
+    width: 15px;
+    height: 15px;
+    margin-left: 45px;
+}
+.i4{
+    width: 15px;
+    height: 15px;
+    margin-left: 45px;
+}
+.i5{
+    width: 15px;
+    height: 15px;
+    margin-left: 45px;
+}
+.i6{
+    width: 15px;
+    height: 15px;
+    margin-left: 45px;
+}
+.i7{
+    width: 15px;
+    height: 15px;
+    margin-left: 45px;
+}
+#icon1>p{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    /* color: rgb(209, 46, 46); */
+    margin-top: 30px;
+}
+#icon2>p{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#icon3>p{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#icon4>p{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#icon5>p{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#icon6>p{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#icon7>p{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#icon1{
+    display: inline-block;
+    color: rgb(174, 36, 36);
+}
