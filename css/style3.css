@@ -1,0 +1,391 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+#container{
+    margin-right: 125px;
+    margin-bottom: 30px;
+}
+.slidebar-icon{
+    height: 20px;
+    width: 20px;
+    margin: 15px 0px 0px 15px;
+    float: left;
+}
+.logo-image{
+    width:142px;
+    height: 30px;
+    margin: 15px 0px 0px 15px;
+    float: left;
+}
+.slidebar-icon{
+    display: inline;
+}
+.search-icon{
+    width: 16px;
+    height: 16px;
+    margin: 19px;
+    margin-left: 80px;
+    float: left;
+}
+.notification-icon{
+    width: 21px;
+    height: 21px;
+    float: right;
+    position: relative;
+    top: 15px;
+    right: 50px;
+}
+.profile-image{
+    width: 35px;
+    height: 35px;
+    float: right;
+    position: relative;
+    top: 7px;
+    left: 40px;
+}
+.downword-arrow{
+    width: 40px;
+    height: 20px;
+    float: right;
+    position: relative;
+    left: 227px;
+    top: 14px;
+}
+.i1{
+    width: 15px;
+    height: 15px;
+    margin-left: 45px;
+}
+.i2{
+    width: 15px;
+    height: 15px;
+    margin-left: 45px;
+}
+.i3{
+    width: 15px;
+    height: 15px;
+    margin-left: 45px;
+}
+.i4{
+    width: 15px;
+    height: 15px;
+    margin-left: 45px;
+}
+.i5{
+    width: 15px;
+    height: 15px;
+    margin-left: 45px;
+}
+.i6{
+    width: 15px;
+    height: 15px;
+    margin-left: 45px;
+}
+.i7{
+    width: 15px;
+    height: 15px;
+    margin-left: 45px;
+}
+#icon1>p{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    /* color: rgb(209, 46, 46); */
+     margin-top: 30px;
+}
+#icon2>p{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#icon3>p{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#icon4>p{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#icon5>p{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#icon6>p{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#icon7>p{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#Analysis{
+    margin-left: 90px;
+    font-size: 20px;
+}
+
+.one-column{
+    margin-top: -280px;
+    margin-left: 240px;
+
+}
+#name{
+    height: 30px;
+    width: 1100px;
+}
+#dropdown{
+    margin-top: 10px;
+    height: 30px;
+    width: 1100px;
+}
+#textarea{
+    margin-top: 10px;
+    height: 80px;
+    width: 1100px;
+    padding-bottom: 60px;
+}
+input{
+    color: gray;
+}
+.two-column{
+    margin-top: 50px;
+    margin-left: 240px;
+}
+.first{
+    display: block;
+    float: left;
+}
+.second{
+    display: block;
+    float: right;
+}
+#name2{
+    height: 50px;
+    width: 500px;
+}
+#Username{
+    margin-top: 10px;
+    height: 50px;
+    width: 500px;
+}
+#password{
+    height: 50px;
+    width: 500px;
+    margin-right: 200px;
+}
+#dropbox2{
+    height: 50px;
+    width: 500px;
+    margin-top: 10px;
+}
+.three-column{
+    margin-top: 160px;
+    margin-left: 240px;
+}
+#name3{
+    margin-right: 12px;
+    width: 350px;
+}
+#pass3{
+    margin-right: 12px;
+    width: 350px;
+}
+#disable{
+    width: 350px;
+}
+.four-column{
+    display: block;
+    float: left;
+    margin-top: 60px;
+    margin-left: 240px;
+    /* display: inline-block; */
+ }
+#UI{
+    margin-right: 15px;
+    width: 250px;
+}
+#name4{
+    margin-right: 15px;
+    width: 250px;
+}
+#username4{
+    margin-right: 15px;
+    width: 250px;
+}
+#select{
+    margin-right: 15px;
+    width: 250px;
+}
+.col4-below-text .small1 {
+    margin-left: 5px;
+}
+
+.col4-below-text .small2 {
+    margin-left: 175px;
+}
+.elements{
+    margin-top: 200px;
+    margin-left: 240px;
+}
+.radio{
+    margin-top: 40px;
+    margin-left: 240px;
+}
+.checkbox{
+    margin-top: 30px;
+    margin-left: 240px;
+} 
+.snackbar{
+    margin-top: 50px;
+    margin-left: 240px;
+}
+.snackrow1 .error-icon {
+    display: flex;
+    width: 483px;
+    height: 44px;
+    border: 1px solid #FF3535;
+    border-radius: 5px;
+    margin-right: 33px;
+
+}
+
+.snackrow1 .error-icon img {
+    width: 20px;
+    height: 20px;
+    margin: 10px 14px;
+}
+
+.snackrow1 .error-icon p {
+    margin: 8px 10px;
+    color: #FF3535;
+}
+
+.snackrow1 .info-icon {
+    display: flex;
+    width: 483px;
+    height: 44px;
+    border: 1px solid #00B9E1;
+    border-radius: 5px;
+    margin-right: 19px;
+
+}
+
+.snackrow1 .info-icon img {
+    width: 20px;
+    height: 20px;
+    margin: 10px 14px;
+}
+
+.snackrow1 .info-icon p {
+    margin: 8px 10px;
+    color: #00B9E1;
+}
+
+.snackrow2 .warning-icon {
+    display: flex;
+    width: 483px;
+    height: 44px;
+    border: 1px solid #FFA800;
+    border-radius: 5px;
+    margin-right: 33px;
+}
+
+.snackrow2 .warning-icon img {
+    width: 20px;
+    height: 20px;
+    margin: 10px 14px;
+}
+
+.snackrow2 .warning-icon p {
+    margin: 8px 10px;
+    color: #FFA800;
+}
+
+.snackrow2 .success-icon {
+    display: flex;
+    width: 483px;
+    height: 44px;
+    border: 1px solid #00AF27;
+    border-radius: 5px;
+    margin-right: 33px;
+}
+
+.snackrow2 .success-icon img {
+    width: 20px;
+    height: 20px;
+    margin: 10px 14px;
+}
+
+.snackrow2 .success-icon p {
+    margin: 8px 10px;
+    color: #00af27;
+}
+.action-btn{
+    margin-top: 50px;
+    margin-left: 240px;
+}
+.action-btn .left-btn {
+    width: 114px;
+    height: 35px;
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+}
+
+.action-btn .right-btn {
+    width: 130px;
+    height: 37px;
+    border: 1px solid #C8242F;
+    border-radius: 22px;
+    margin-left: 20px;
+}
+
+.elements h5 {
+    margin-top: 24px;
+}
+.Tabs{
+    margin-top: 50px;
+    margin-left: 240px;
+}
+.tabs{
+    margin-top: 30px;
+    margin-left: 240px;
+}
+
+.tabs .t1 {
+    margin-left: 20px;
+    font: normal normal medium 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #C8242F;
+}
+
+.tabs .t2 {
+    margin-left: 20px;
+    font: normal normal medium 15px/20px Roboto;
+    letter-spacing: 0px;
+    /* color: #C8242F; */
+}
+
+.tabs .t3 {
+    margin-left: 20px;
+    text-align: left;
+    font: normal normal medium 15px/20px Roboto;
+    letter-spacing: 0px;
+    /* color: #C8242F; */
+}
+.para{
+    margin-left: 240px;
+}
+

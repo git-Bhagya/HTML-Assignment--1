@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./CSS/style2.css">
     <title>Dahsboard</title>
 </head>
+
 <body>
     <div id="container">
         <img src="./images/menu-bar.svg" alt="This image can't be loaded" class="slidebar-icon">
@@ -17,39 +19,196 @@
         top: 13px; display: inline;">search</p>
         <img src="./images/notification-icon.svg" alt="This image can't be loaded" class="notification-icon">
         <img src="./images/profile.png" alt="This image can't be loaded" class="profile-image">
-        <p style="font-size: 15px; font-weight: 200;  top: 13px; display: inline; float: right; position: relative; left: 140px;">John Doe</p>
+        <p
+            style="font-size: 15px; font-weight: 200;  top: 13px; display: inline; float: right; position: relative; left: 140px;">
+            John Doe</p>
         <img src="./images/select-downward.svg" alt="This image can't be loaded" class="downword-arrow">
     </div>
     <div id="side-bar">
         <div id="icon1">
-            <img src="./images/dashboard-active.svg"  alt="This image can't be loaded" class="i1">
+            <img src="./images/dashboard-active.svg" alt="This image can't be loaded" class="i1">
             <p>Dashboard</p>
+            <b id="dashboard">Dashboard</b>
         </div>
         <div id="icon2">
-            <img src="./images/graph-default.svg"  alt="This image can't be loaded" class="i2">
+            <img src="./images/graph-default.svg" alt="This image can't be loaded" class="i2">
             <p>Analysis</p>
         </div>
         <div id="icon3">
-            <img src="./images/inbox-default.svg"  alt="This image can't be loaded" class="i3">
+            <img src="./images/inbox-default.svg" alt="This image can't be loaded" class="i3">
             <p>Inbox</p>
         </div>
         <div id="icon4">
-            <img src="./images/clock-default.svg"  alt="This image can't be loaded" class="i4">
+            <img src="./images/clock-default.svg" alt="This image can't be loaded" class="i4">
             <p>History</p>
         </div>
         <div id="icon5">
-            <img src="./images/user-default.svg"  alt="This image can't be loaded" class="i5">
+            <img src="./images/user-default.svg" alt="This image can't be loaded" class="i5">
             <p>Users</p>
         </div>
         <div id="icon6">
-            <img src="./images/maintenance-default.svg"  alt="This image can't be loaded" class="i1">
+            <img src="./images/maintenance-default.svg" alt="This image can't be loaded" class="i1">
             <p>Maintenance</p>
         </div>
         <div id="icon7">
-            <img src="./images/setting-default.svg"  alt="This image can't be loaded" class="i1">
+            <img src="./images/setting-default.svg" alt="This image can't be loaded" class="i1">
             <p>Setting</p>
         </div>
-        
+        <div id="images">
+            <div id="star">
+                <img src="./images/star.svg" alt="image can not be loaded">
+                <p class="new"><b><big>23,450</big></b> <b><small>New Products</small></b></p>
+            </div>
+            <div id="new-product">
+                <img src="./images/new-product.svg" alt="image can not be loaded">
+                <p class="new"><b><big>2345</big></b> <b><small>Added Products</small></b></p>
+            </div>
+            <div id="total">
+                <img src="./images/total-product.svg" alt="image can not be loaded">
+                <p class="new"><b><big>32,456</big></b> <b><small>Today Products</small></b></p>
+            </div>
+            <div id="doller">
+                <img src="./images/dollar-filled.svg" alt="image can not be loaded">
+                <p class="new"><b><big>5678</big></b> <b><small>Today's Sale</small></b></p>
+            </div>
+            <div id="money">
+                <img src="./images/money-bag.svg" alt="">
+                <p class="new"><b><big>33,5432</big></b> <b><small>Total Sale</small></b></p>
+            </div>
+        </div>
+
+        <div id="middle">
+            <div id="graph">
+                <h4>Sale</h4>
+                <div id="time">
+                    <p>Weekly</p>
+                    <p>Monthly</p>
+                    <p>Yearly</p>
+                </div>
+                <div id="graph-image">
+                    <img src="./images/data-graph.png" alt="image can not be loaded">
+                </div>
+            </div>
+            <div id="chart">
+                <h4 class="sale">Sales by country</h4>
+                <div id="chart-image">
+                    <img src="./images/pie-chart.svg" alt="">
+                </div>
+                <div class="row-list">
+                  <div class="col-list">
+                      <span id="red"></span>
+                      <p id="us">United States of America</p>
+                  </div>
+                  <div class="col-list">
+                      <span id="green"></span>
+                      <p id="can" >Canada</p>
+                  </div>
+              </div>
+              <div class="row-list">
+                  <div class="col-list">  
+                      <span id="orange"></span>
+                      <p id="rus">Russia</p>
+                  </div>
+                  <div class="col-list">
+                      <span id="yellow"></span>   
+                      <p id="ind">India</p>
+                  </div>
+              </div> 
+            </div>
+        </div>
+
+        <div id="last">
+            <h3>Invoices</h3>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col" class="tab">INVOICE</th>
+                    <th scope="col" class="tab2">COMPANY NAME</th>
+                    <th scope="col" class="tab3">EMAIL</th>
+                    <th scope="col" class="tab4">DUE DATE</th>
+                    <th scope="col" class="tab">STATUS</th>
+                    <th scope="col">AMOUNT</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>651535</td>
+                    <td>Public Adjusting Firm</td>
+                    <td>georgia.young@example.com</td>
+                    <td>24 May,2020</td>
+                    <td class="paid">Paid</td>
+                    <td>$47,800</td>
+                  </tr>
+                  <tr>
+                    <td>558612</td>
+                    <td>Other</td>
+                    <td>jessica.hanson@example.com</td>
+                    <td>24 May,2020</td>
+                    <td class="paid">Paid</td>
+                    <td>$98,000</td>
+                  </tr>
+                  <tr>
+                    <td>558612</td>
+                    <td>Vendor</td>
+                    <td>alma.lawson@example.com</td>
+                    <td>08 Sep,2020</td>
+                    <td class="paid">Paid</td>
+                    <td>$20,900</td>
+                  </tr>
+                  <tr>
+                    <td>558612</td>
+                    <td>Property Management Company</td>
+                    <td>kenzi.lawson@example.com</td>
+                    <td>22 SOct,2020</td>
+                    <td class="paid">Paid</td>
+                    <td>$10,570</td>
+                  </tr>
+                  <tr>
+                    <td>651535</td>
+                    <td>Subcontractor Company</td>
+                    <td>jackson.graham@example.com</td>
+                    <td>01 Feb,2020</td>
+                    <td class="fail">Failed</td>
+                    <td>$10,200</td>
+                  </tr>
+                  <tr>
+                    <td>653518</td>
+                    <td>Mortage Company</td>
+                    <td>felicia.reid@example.com</td>
+                    <td>22 Oct,2020</td>
+                    <td class="pending">Pending</td>
+                    <td>$12,600</td>
+                  </tr>
+                  <tr>
+                    <td>487441</td>
+                    <td>TPA</td>
+                    <td>dolores.chambers@example.com</td>
+                    <td>21 Sep,2020</td>
+                    <td class="paid">Paid</td>
+                    <td>$11,170</td>
+                  </tr>
+                  <tr>
+                    <td>267400</td>
+                    <td>Fire Department</td>
+                    <td>nevaeh.simmons@example.com</td>
+                    <td>17 Oct,2020</td>
+                    <td class="fail">Faild</td>
+                    <td>$28,000</td>
+                  </tr>
+                  <tr>
+                    <td>449003</td>
+                    <td>Insurance Carrier</td>
+                    <td>curtis.weaver@example.com</td>
+                    <td>21 Sep,2020</td>
+                    <td class="paid">Paid</td>
+                    <td>$10,000</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+
+
     </div>
 </body>
+
 </html>

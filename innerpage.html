@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style3.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>InnerPage</title>
+</head>
+
+<body>
+    <div id="container">
+        <img src="./images/menu-bar.svg" alt="This image can't be loaded" class="slidebar-icon">
+        <img src="./images/logo.svg" alt="This image can't be loaded" class="logo-image">
+        <img src="./images/search-icon.svg" alt="This image can't be loaded" class="search-icon">
+        <p style="font-size: 15px; font-weight: 200; margin-top: 20px; position: relative;
+        top: 13px; display: inline;">search</p>
+        <img src="./images/notification-icon.svg" alt="This image can't be loaded" class="notification-icon">
+        <img src="./images/profile.png" alt="This image can't be loaded" class="profile-image">
+        <p
+            style="font-size: 15px; font-weight: 200;  top: 13px; display: inline; float: right; position: relative; left: 140px;">
+            John Doe</p>
+        <img src="./images/select-downward.svg" alt="This image can't be loaded" class="downword-arrow">
+    </div>
+    <div id="side-bar">
+        <div id="icon1">
+            <img src="./images/dashboard-active.svg" alt="This image can't be loaded" class="i1">
+            <p>Dashboard</p>
+            <b id="Analysis">Analysis</b>
+        </div>
+        <div id="icon2">
+            <img src="./images/graph-default.svg" alt="This image can't be loaded" class="i2">
+            <p>Analysis</p>
+        </div>
+        <div id="icon3">
+            <img src="./images/inbox-default.svg" alt="This image can't be loaded" class="i3">
+            <p>Inbox</p>
+        </div>
+        <div id="icon4">
+            <img src="./images/clock-default.svg" alt="This image can't be loaded" class="i4">
+            <p>History</p>
+        </div>
+        <div id="icon5">
+            <img src="./images/user-default.svg" alt="This image can't be loaded" class="i5">
+            <p>Users</p>
+        </div>
+        <div id="icon6">
+            <img src="./images/maintenance-default.svg" alt="This image can't be loaded" class="i1">
+            <p>Maintenance</p>
+        </div>
+        <div id="icon7">
+            <img src="./images/setting-default.svg" alt="This image can't be loaded" class="i1">
+            <p>Setting</p>
+        </div>
+    </div>
+
+    <div class="innerpage">
+        <div class="one-column">
+            <h3>One Column</h3>
+            <input type="text" id="name" class="back" placeholder="name"><br>
+            <select name="drop-down" id="dropdown">
+                <option value="v1">DropDown</option>
+            </select>
+            <input type="text" id="textarea" class="back" placeholder="Multiple Line"><br>
+        </div>
+        <div class="two-column">
+            <h3>Two Column</h3>
+            <div class="first">
+                <input type="text" id="name2" class="back" placeholder="name"><br>
+                <input type="password" id="Username" class="back" placeholder="Password"><br>
+            </div>
+
+            <div class="second">
+                <input type="text" id="password" class="back" placeholder="Username"><br>
+                <input type="text" id="dropbox2" class="back" placeholder="dropdown"><br>
+            </div>
+        </div>
+        <div class="three-column">
+            <h3>Three Column</h3>
+            <input type="text" id="name3">
+            <input type="password" id="pass3">
+            <input type="text" id="disable" placeholder="johndoe" disabled>
+        </div>
+        <div class="four-column">
+            <h3>Four column</h3>
+            <input type="text" id="UI">
+            <input type="text" id="name4">
+            <input type="text" id="username4">
+            <select name="select" id="select">
+                <option value="value1">Select</option>
+            </select>
+            <div class="col4-below-text">
+                <small class="small1">Enter Valid Data</small>
+                <small class="small2">Enter your full name as per Id </small>
+            </div>
+        </div>
+        <div class="elements">
+            <h3>Other design Elements</h3>
+
+            <h6>File Upload</h6>
+
+            <div class="file-part" style="display: flex;">
+                <button class="btn" style="display: flex; border: 2px solid red; border-radius: 24px; height: 39px;">
+                    <img class="cloud" src="./images/cloud-upload-icon.svg" alt="">
+                    <p style="margin-bottom: 0px; margin-left: 6px;">Upload</p>
+                </button>
+                <p class="item" style="margin-top: 10px;
+                font-size: 12px;
+                margin-left: 10px;
+            "> No item Selected</p>
+            </div>
+        </div>
+        <div class="radio">
+            <h6>Radio Button</h6>
+
+            <input type="radio" id="option1" name="option" value="option1">
+            <label for="option1"> option1</label>
+
+            <input type="radio" id="option2" name="option" value="option2" style="margin-left: 18px
+            ;" checked>
+            <label for="option2"> option2</label>
+        </div>
+        <div class="checkbox">
+            <h6>Checkbox</h6>
+            <input type="checkbox" id="checkbox1">Option1
+            <input type="checkbox" id="checkbox2">Option2
+        </div>
+        <div class="snackbar">
+            <h6>Snackbar</h6>
+            <div class="snackrow1" style="display: flex;">
+                <div class="error-icon">
+
+                    <img src="./images/error-icon.svg" alt="">
+                    <p>This is an error message!</p>
+                </div>
+                <div class="info-icon">
+
+                    <img src="./images/info-icon.svg" alt="" style="width: 20px; height: 20px;">
+                    <p>This is an information message!</p>
+                </div>
+            </div>
+
+            <div class="snackrow2" style="display: flex; margin-top: 10px;">
+                <div class="warning-icon">
+
+                    <img src="./images/warning-icon.svg" alt="" style="width: 20px; height: 20px;">
+                    <p>This is an warning message!</p>
+                </div>
+                <div class="success-icon">
+
+                    <img src="./images/success-icon.svg" alt="" style="width: 20px; height: 20px;">
+                    <p>This is a Success message!</p>
+                </div>
+            </div>
+        </div>
+        <div class="action-btn">
+            <h5>Call to action</h5>
+            <button class="left-btn" type="button">Primary</button>
+            <button class="right-btn" type="button">Secondary</button>
+
+        </div>
+
+        <h5 class="Tabs">Tabs</h5>
+        <div class="tabs" style="display: flex;">
+            <p class="t1">Tab1</p>
+            <p class="t2">Tab2</p>
+            <p class="t3">Tab3</p>
+        </div>
+        <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
+
+    </div>
+</body>
+
+</html>
