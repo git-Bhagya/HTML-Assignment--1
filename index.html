@@ -4,36 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    
+    <title>Index</title>
 </head>
 <body>
-    <div id="board">
-        <div id="hero">
-            <img src="./images/hero-image.png" alt="avatar">
-        </div>
-        <div id="side">
-            <div id="logo">
-                <img src="./images/logo.svg" alt="logo">
+    <div class="container p-5"> 
+        <div class="row">
+            <div class="col ">
+                <img src="./images/hero-image.png" class="left-logo-img" alt="this image can't be loaded">
             </div>
-            <div id="title">
-                <h1>We are <b>experts</b> in business,</h1>
-                <h1>marketing, growth & sales.</h1>
-            </div>
-            <div id="form">
-                <h1 id="formtitle">Login into your account</h1>
+            <div class="col col-right-css">
+                <img src="./images/header-logo.svg" class="right-logo-img"  alt="this image can't be loaded"> <br>
+                <h2 class="dummy-text">We are <b style="color: red;">experts</b>  in business, marketing, growth and sales.</h2>  <br>
+                <h4>Login into your account</h4">
                 <form action="">
-                    <input type="text" name="Username" id="user" placeholder="Username">
-                    <input type="text" name="Password" id="pass" placeholder=" Password">
-                    <button type="button" id="button">Login</button>
+                    <input type="email" placeholder="Username" class="form-control text-field" >
+                    <input type="password" placeholder="Password" class="form-control text-field ">
+                    <button type="button" class="login-btn">Login</button>
+                    <span >Forgot password??</span> <br>
+                    <div class="bottom">Are you a new member?<a href="#"> <b>Register here</b> </a></div> 
                 </form>
-                <p id="forgot">Forgot Password?</p>
-                <p id="para">Are you a new Member?<span id="register">Register here</span></p>
+                
             </div>
-
         </div>
-
     </div>
 </body>
 </html>
